@@ -1,0 +1,27 @@
+﻿<Window x:Class="Integrating_Methods.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Integrating_Methods"
+        mc:Ignorable="d"
+        Title="Методи Інтегрування" Height="450" Width="525">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="28,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249"><Run Text="Аналітичне подання "/><Run Text="функції:"/></TextBlock>
+        <TextBox x:Name="function" HorizontalAlignment="Left" Height="29" Margin="304,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="28,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249"><Run Text="Точка "/><Run Text="A:"/></TextBlock>
+        <TextBox x:Name="a" HorizontalAlignment="Left" Height="29" Margin="304,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="28,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249" Text="Точка B:"/>
+        <TextBox x:Name="b" HorizontalAlignment="Left" Height="29" Margin="304,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="28,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249" Text="Метод інтегрування:"/>
+        <ComboBox SelectedIndex="0" x:Name="method" HorizontalAlignment="Left" Margin="304,188,0,0" VerticalAlignment="Top" Width="146" Height="29">
+            <ComboBoxItem>прямокутників</ComboBoxItem>
+            <ComboBoxItem>трапецій</ComboBoxItem>
+            <ComboBoxItem>Сімпсона</ComboBoxItem>
+        </ComboBox>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="28,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249"><Run Text="Результат"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="result" IsEnabled="False" HorizontalAlignment="Left" Height="29" Margin="304,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="calculate" Content="Обчислити" Click="calculate_Click" HorizontalAlignment="Left" Margin="202,319,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
