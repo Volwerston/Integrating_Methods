@@ -68,6 +68,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Func.cs" />
+    <Compile Include="Classes\GaussianIntegratingMethod.cs" />
     <Compile Include="Classes\IntegratingService.cs" />
     <Compile Include="Classes\MethodContext.cs" />
     <Compile Include="Classes\RectangleIntegratingMethod.cs" />

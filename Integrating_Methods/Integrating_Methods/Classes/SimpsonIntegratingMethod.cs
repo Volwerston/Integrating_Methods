@@ -9,6 +9,7 @@ namespace Integrating_Methods.Classes
 {
     public class SimpsonIntegratingMethod : IIntegratingMethod
     {
+
         public double Count(MethodContext context)
         {
             double M = context.N / 2;

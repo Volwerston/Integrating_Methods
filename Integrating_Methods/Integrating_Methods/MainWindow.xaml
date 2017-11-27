@@ -18,6 +18,7 @@
             <ComboBoxItem>прямокутників</ComboBoxItem>
             <ComboBoxItem>трапецій</ComboBoxItem>
             <ComboBoxItem>Сімпсона</ComboBoxItem>
+            <ComboBoxItem>Гауса</ComboBoxItem>
         </ComboBox>
         <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="28,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="249"><Run Text="Результат"/><Run Text=":"/></TextBlock>
         <TextBox x:Name="result" IsEnabled="False" HorizontalAlignment="Left" Height="29" Margin="304,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>

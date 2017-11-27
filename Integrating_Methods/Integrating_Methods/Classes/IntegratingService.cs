@@ -19,6 +19,8 @@ namespace Integrating_Methods.Classes
                     return new TrapezeIntegratingMethod();
                 case "Сімпсона":
                     return new SimpsonIntegratingMethod();
+                case "Гауса":
+                    return new GaussianIntegratingMethod();
                 default:
                     throw new NotImplementedException();
             }

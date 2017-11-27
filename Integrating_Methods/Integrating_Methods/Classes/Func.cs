@@ -38,5 +38,15 @@ namespace Integrating_Methods.Classes
             Expression exp = new Expression("der(" + Prorotype + ",x)");
             return new Func(exp.getExpressionString());
         }
+
+        public Func Derivative(int n)
+        {
+            if (n == 1)
+            {
+                return this.Derivative();
+            }
+
+            return this.Derivative().Derivative(n - 1);
+        }
     }
 }
